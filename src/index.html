@@ -7,11 +7,11 @@
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
 </head>
 <body class="root">
-  <header class="header header_theme_white header_active">
-    <h1 class="header__logo">NewsExplorer</h1>
-    <div class="header__burger header__burger_active">
+  <header class="header header_theme_white">
+    <h2 class="header__logo">NewsExplorer</h2>
+    <div class="header__burger">
     </div>
-    <nav class="header__nav header__nav_active">
+    <nav class="header__nav">
       <ul class="header__nav-links">
         <li class="header__nav-item header__nav-item_active"><a href="#" class="header__nav-link">Главная</a></li>
         <li class="header__nav-item"><a href="#" class="header__nav-link">Сохранённые статьи</a></li>
@@ -19,6 +19,18 @@
       <button class="header__auth">Авторизоваться</button>
     </nav>
   </header>
+  <main class="main">
+    <div class="cover">
+      <div class="cover__content">
+        <h1 class="cover__title">Что творится в мире?</h1>
+        <p class="cover__subtitle">Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете.</p>
+        <form action="" class="cover__search">
+          <input placeholder="Введите тему новости" type="text" class="cover__input">
+          <button class="cover__button">Искать</button>
+        </form>
+      </div>
+    </div>
+  </main>
   <script src="<%=htmlWebpackPlugin.files.js %>"></script>
 </body>
 </html>

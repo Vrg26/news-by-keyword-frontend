@@ -1,0 +1,20 @@
+@import url(./__button/cover__button.css);
+@import url(./__input/cover__input.css);
+@import url(./__search/cover__search.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__title/cover__title.css);
+@import url(./__content/cover__content.css);
+
+.cover {
+  color: #fff;
+  background-image: url("../../images/cover.jpg");
+  background-color: #609247;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 500px) {
+  .cover{
+    background-image: url("../../images/cover320.jpg");
+  }
+}

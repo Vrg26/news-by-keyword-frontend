@@ -1,0 +1,36 @@
+.cover__input {
+  position: absolute;
+  caret-color: #2F71E5;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 1px solid #D1D2D6;
+  max-width: 500px;
+  width: 100%;
+  padding: 21px 60px 21px 24px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  line-height: 22px;
+  color: #1A1B22;
+}
+.cover__input::placeholder{
+  color: #B6BCBF;
+}
+@media screen and (max-width: 767px) {
+  .cover__input{
+    max-width: 350px;
+    padding: 15px 60px 15px 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover__input{
+    position: relative;
+    padding: 17px 16px;
+  }
+}
+

@@ -1,0 +1,38 @@
+.cover__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+  background-color: #2F71E5;
+  box-shadow: 0 5px 15px rgba(14, 26, 57, 0.2);
+  border-radius: 100px;
+  border: none;
+  padding: 21px 54px;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  transition: all 0.3s ease 0s;
+}
+.cover__button:hover{
+  background-color: #347EFF;
+}
+.cover__button:active{
+  background-color: #2A65CC;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__button{
+    padding: 15px 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover__button{
+    position: relative;
+    width: 100%;
+    margin-top: 16px;
+  }
+}

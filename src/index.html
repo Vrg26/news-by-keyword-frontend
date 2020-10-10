@@ -2,10 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <meta name="viewport" content="width=device-width">
+  <title>NewsExplorer</title>
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
 </head>
-<body>
+<body class="root">
+  <header class="header header_theme_white header_active">
+    <h1 class="header__logo">NewsExplorer</h1>
+    <div class="header__burger header__burger_active">
+    </div>
+    <nav class="header__nav header__nav_active">
+      <ul class="header__nav-links">
+        <li class="header__nav-item header__nav-item_active"><a href="#" class="header__nav-link">Главная</a></li>
+        <li class="header__nav-item"><a href="#" class="header__nav-link">Сохранённые статьи</a></li>
+      </ul>
+      <button class="header__auth">Авторизоваться</button>
+    </nav>
+  </header>
   <script src="<%=htmlWebpackPlugin.files.js %>"></script>
 </body>
 </html>

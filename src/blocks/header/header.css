@@ -1,0 +1,40 @@
+@import url(./__logo/header__logo.css);
+@import url(./__auth/header__auth.css);
+@import url(./__nav/header__nav.css);
+@import url(./__nav/_active/header__nav_active.css);
+@import url(./__nav-item/header__nav-item.css);
+@import url(./__nav-item/_active/header__nav-item_active.css);
+@import url(./__nav-links/header__nav-links.css);
+@import url(./__nav-link/header__nav-link.css);
+@import url(./__burger/header__burger.css);
+@import url(./__burger/_black/header__burger_black.css);
+@import url(./__burger/_active/header__burger_active.css);
+@import url(./_theme/header_theme_white.css);
+@import url(./_theme/header_theme_black.css);
+@import url(./_active/header_active.css);
+
+.header {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 20;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 104px 0;
+}
+
+
+@media screen and (max-width: 1024px){
+  .header{
+    padding: 14px 40px 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .header{
+    padding: 16px;
+  }
+}

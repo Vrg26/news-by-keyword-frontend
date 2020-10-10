@@ -1,0 +1,5 @@
+.header__burger_black:before,
+.header__burger_black:after
+{
+    background-color: #1A1B22;
+}

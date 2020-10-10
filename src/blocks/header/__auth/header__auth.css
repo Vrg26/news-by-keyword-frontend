@@ -10,6 +10,12 @@
   padding: 10px 12px;
   background: none;
 }
+@media screen and (max-width: 1024px){
+  .header__auth{
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+}
 @media screen and (max-width: 767px) {
   .header__auth{
     padding: 17px 74px;

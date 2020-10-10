@@ -8,7 +8,11 @@
   font-weight: 500;
   align-items: center;
 }
-
+@media screen and (max-width: 1024px){
+  .header__nav{
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 767px) {
    .header__nav{
      display: none;

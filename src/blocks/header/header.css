@@ -15,7 +15,7 @@
 @import url(./__content/header__content.css);
 .header {
   font-family: 'Roboto', sans-serif;
-  position: fixed;
+  position: absolute;
   width: 100%;
   left: 0;
   top: 0;

@@ -15,15 +15,14 @@
   border-radius: 10px;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1080px) {
   .articles__hint {
-    top: 8px;
-    right: 49px;
+    top: 68px;
+    right: 24px;
     padding: 14px 4px;
   }
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 940px) {
   .articles__hint {
     top: 50px;
     right: 8px;
@@ -32,8 +31,7 @@
 }
 @media screen and (max-width: 500px) {
   .articles__hint {
-    top: 16px;
-    right: 69px;
-    padding: 14px;
+    top: 60px;
+    right: 16px;
   }
 }

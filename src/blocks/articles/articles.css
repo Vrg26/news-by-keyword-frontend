@@ -1,4 +1,3 @@
-@import url(./__add-icon/articles__add-icon.css);
 @import url(./__title/articles__title.css);
 @import url(./__content/articles__content.css);
 @import url(./__card/articles__card.css);
@@ -7,8 +6,9 @@
 @import url(./__picture/articles__picture.css);
 @import url(./__text/articles__text.css);
 @import url(./__source/articles__source.css);
-@import url(./__add-button/articles__add-button.css);
+@import url(__button/articles__button.css);
 @import url(./__hint/_active/articles__hint_active.css);
+@import url(./__keyword/articles__keyword.css);
 .articles {
   display: grid;
   justify-content: center;

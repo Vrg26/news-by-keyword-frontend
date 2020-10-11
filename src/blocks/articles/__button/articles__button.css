@@ -1,5 +1,9 @@
-.articles__add-button {
+@import url(./_add/articles__button_add.css);
+@import url(./_delete/articles__button_delete.css);
+
+.articles__button {
   position: absolute;
+  cursor: pointer;
   top: 24px;
   right: 24px;
   z-index: 2;
@@ -7,22 +11,18 @@
   height: 40px;
   border-radius: 8px;
   padding: 0;
-  background: #fff url("../../../images/addIconGrey.svg") center no-repeat;
   transition: all 0.2s ease 0s;
   border: none;
 }
-.articles__add-button:hover {
-  background-image: url("../../../images/addIconBlack.svg");
-}
 
 @media screen and (max-width: 940px) {
-  .articles__add-button {
+  .articles__button {
     top: 8px;
     right: 8px;
   }
 }
 @media screen and (max-width: 500px) {
-  .articles__add-button {
+  .articles__button {
     top: 16px;
     right: 16px;
   }

@@ -20,7 +20,7 @@
     </nav>
   </header>
   <main class="main">
-    <div class="cover">
+    <section class="cover">
       <div class="cover__content">
         <h1 class="cover__title">Что творится в мире?</h1>
         <p class="cover__subtitle">Находите самые свежие статьи на любую тему и сохраняйте в своём личном кабинете.</p>
@@ -29,7 +29,63 @@
           <button class="cover__button">Искать</button>
         </form>
       </div>
-    </div>
+    </section>
+    <section class="result">
+      <div class="result__content">
+        <h2 class="result__title">Результаты поиска</h2>
+        <div class="articles result__articles">
+          <div class="articles__card">
+            <div class="articles__picture">
+              <button class="articles__add-button"></button>
+              <p class="articles__hint">Войдите, чтобы сохранить статьи</p>
+            </div>
+            <div class="articles__content">
+              <p class="articles__date">2 августа, 2019</p>
+              <h3 class="articles__title">
+                Национальное достояние – парки
+              </h3>
+              <p class="articles__text">
+                В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...
+              </p>
+              <p class="articles__source">Риа</p>
+            </div>
+          </div>
+          <div class="articles__card">
+            <div class="articles__picture">
+              <button class="articles__add-button"></button>
+              <p class="articles__hint">Войдите, чтобы сохранить статьи</p>
+            </div>
+            <div class="articles__content">
+              <p class="articles__date">2 августа, 2019</p>
+              <h3 class="articles__title">
+                Национальное достояние – парки
+              </h3>
+              <p class="articles__text">
+                В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...
+              </p>
+              <p class="articles__source">Риа</p>
+            </div>
+          </div>
+          <div class="articles__card">
+            <div class="articles__picture">
+              <button class="articles__add-button"></button>
+              <p class="articles__hint articles__hint_active">Войдите, чтобы сохранить статьи</p>
+            </div>
+            <div class="articles__content">
+              <p class="articles__date">2 августа, 2019</p>
+              <h3 class="articles__title">
+                Национальное достояние – парки
+              </h3>
+              <p class="articles__text">
+                В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...
+              </p>
+              <p class="articles__source">Риа</p>
+            </div>
+          </div>
+        </div>
+        <button class="button button_theme_white result__show-more">Показать еще</button>
+      </div>
+    </section>
   </main>
   <script src="<%=htmlWebpackPlugin.files.js %>"></script>
 </body>

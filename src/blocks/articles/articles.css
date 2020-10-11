@@ -1,0 +1,34 @@
+@import url(./__add-icon/articles__add-icon.css);
+@import url(./__title/articles__title.css);
+@import url(./__content/articles__content.css);
+@import url(./__card/articles__card.css);
+@import url(./__date/articles__date.css);
+@import url(./__hint/articles__hint.css);
+@import url(./__picture/articles__picture.css);
+@import url(./__text/articles__text.css);
+@import url(./__source/articles__source.css);
+@import url(./__add-button/articles__add-button.css);
+@import url(./__hint/_active/articles__hint_active.css);
+.articles {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .articles{
+    grid-gap: 8px 8px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .articles {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 500px) {
+  .articles {
+    grid-template-columns: 288px;
+    grid-gap: 10px 10px;
+  }
+}

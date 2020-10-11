@@ -1,0 +1,19 @@
+.articles__text {
+  margin: 16px 0 28px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .articles__text {
+    margin-top: 12px;
+    height: 88px;
+  }
+}

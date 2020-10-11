@@ -1,0 +1,29 @@
+@import url(./__content/result__content.css);
+@import url(./__title/result__title.css);
+@import url(./__show-more/result__show-more.css);
+@import url(./__articles/result__articles.css);
+
+.result {
+  padding: 80px 0;
+  background-color: #F5F6F7;
+}
+@media screen and (max-width: 1280px) {
+  .result {
+    padding: 80px 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .result {
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .result {
+    padding: 32px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .result {
+    padding: 32px 16px;
+  }
+}

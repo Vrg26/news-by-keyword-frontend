@@ -1,0 +1,39 @@
+.articles__hint {
+  display: none;
+  margin: 0;
+  padding: 14px;
+  position: absolute;
+  top: 24px;
+  right: 69px;
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 940px) {
+  .articles__hint {
+    top: 8px;
+    right: 49px;
+    padding: 14px 4px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .articles__hint {
+    top: 50px;
+    right: 8px;
+    padding: 14px 4px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .articles__hint {
+    top: 16px;
+    right: 69px;
+    padding: 14px;
+  }
+}

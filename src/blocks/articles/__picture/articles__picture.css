@@ -1,0 +1,19 @@
+.articles__picture {
+  width: 100%;
+  height: 272px;
+  background-image: url("../../../images/cardImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .articles__picture {
+    height: 150px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .articles__picture {
+    height: 196px;
+  }
+}

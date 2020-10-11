@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+  <title>test</title>
+</head>
+<body class="root">
+  <header class="header header_theme_black">
+    <div class="header__content">
+      <h2 class="header__logo">NewsExplorer</h2>
+      <div class="header__burger">
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav-links">
+          <li class="header__nav-item header__nav-item_black"><a href="#" class="header__nav-link">Главная</a></li>
+          <li class="header__nav-item header__nav-item_black header__nav-item_active"><a href="./articles.html" class="header__nav-link">Сохранённые статьи</a></li>
+        </ul>
+        <button class="header__auth header__auth_black">Авторизоваться</button>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <section class="info">
+      <h1 class="info__title">Сохраненные статьи</h1>
+      <h2 class="info__subtitle">Грета, у вас 5 сохранённых статей</h2>
+      <p class="info__text">По ключевым словам:
+        <span class="info__keyword">Природа</span> ,
+        <span class="info__keyword">Тайга</span> и <span class="info__keyword">2-м другим</span></p>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__copyright">© 2020 Supersite, Powered by News API</p>
+    <div class="footer__nav">
+      <div class="footer__links">
+        <a href="#" class="footer__link">Главная</a>
+        <a href="#" class="footer__link">Яндекс.Практикум</a>
+      </div>
+      <ul class="footer__social-items">
+        <li class="footer__social-item">
+          <a href="https://github.com/Vrg26" target="_blank" class="footer__social-link">
+            <img src="<%=require('./images/github.svg') %>" alt="Иконка github" class="footer__social-icon">
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a href="" target="_blank" class="footer__social-link">
+            <img src="<%=require('./images/facebook.svg') %>" alt="Иконка facebook" class="footer__social-icon">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

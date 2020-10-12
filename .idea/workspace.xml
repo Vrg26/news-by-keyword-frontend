@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -16,60 +19,91 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:level-2" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="238988ff-2cd8-4aea-b1e4-9cb75495d83a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/news-by-keyword-frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/result/__img/result__img.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/result/__not-found/_show/result__not-found_show.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/result/__not-found/result__not-found.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/result/__text/result__text.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/blocks/result/__title/_not-found/result__title_not-found.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/not-found.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/result/__title/result__title.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/result/__title/result__title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/result/result.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/result/result.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1iXJs9Tb6rzDT9MesnnAcYPH3qc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Учеба\Яндекс практикум\Проектная работа\news-by-keyword-frontend\src\scripts" />
+      <recent name="D:\Учеба\Яндекс практикум\Проектная работа\news-by-keyword-frontend\src\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Учеба\Яндекс практикум\Проектная работа\news-by-keyword-frontend\src\images" />
       <recent name="D:\Учеба\Яндекс практикум\Проектная работа\news-by-keyword-frontend\src" />
     </key>
   </component>
@@ -82,6 +116,16 @@
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -100,8 +144,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -114,8 +159,109 @@
       <option name="presentableId" value="Default" />
       <updated>1602048207028</updated>
       <workItem from="1602048208074" duration="4010000" />
-      <workItem from="1602134483438" duration="2956000" />
+      <workItem from="1602134483438" duration="3633000" />
+      <workItem from="1602321828760" duration="108000" />
+      <workItem from="1602321946044" duration="71000" />
+      <workItem from="1602322025147" duration="312000" />
+      <workItem from="1602322352901" duration="36053000" />
+      <workItem from="1602399248739" duration="43762000" />
+      <workItem from="1602479307358" duration="4943000" />
+      <workItem from="1602484444300" duration="346000" />
+      <workItem from="1602497513115" duration="2765000" />
+      <workItem from="1602516565596" duration="1227000" />
     </task>
+    <task id="LOCAL-00001" summary="Первая настройка webpack для начала проекта.">
+      <created>1602137687058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602137687058</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Сверстал header, добавл шрифты.">
+      <created>1602353034813</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602353034813</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Сверстал блок cover.">
+      <created>1602361993980</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602361993980</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Исправил адаптив header. Добавил padding на промежуточной ширине, исправил размер шритфа.">
+      <created>1602362743449</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602362743449</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Сделал раздел &quot;Результаты поиска&quot;. Добавил блоки results, articles, button. Исправил итоговое расположение картинок при сборке веб-паком.">
+      <created>1602423091570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602423091570</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Изменил ширину header на большом разрешении.">
+      <created>1602424667546</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1602424667546</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Сверстал блок &quot;Об авторе&quot;">
+      <created>1602432051478</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1602432051478</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Сверстал footer">
+      <created>1602439822601</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1602439822601</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Сменил position у header c fixed на absolute">
+      <created>1602439926395</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602439926395</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Добавил страницу articles. Сверстал блок info.">
+      <created>1602443738198</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602443738198</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Добавил темный модификатор элементам header">
+      <created>1602443861604</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602443861604</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Сверстал секцию сохраненных статей. Изменил на крточках статей кнопку. Добавил модификаторы для кнопки добавления статьи и удаления статьи.">
+      <created>1602448142720</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602448142720</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Сверстал popup. Добавил конпке стиль disabled, иземенил цвет шрифта в голубой теме.">
+      <created>1602499103845</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602499103845</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,33 +272,87 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="level-2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Первая настройка webpack для начала проекта." />
+    <MESSAGE value="Сверстал header, добавл шрифты." />
+    <MESSAGE value="Сверстал блок cover." />
+    <MESSAGE value="Исправил адаптив header. Добавил padding на промежуточной ширине, исправил размер шритфа." />
+    <MESSAGE value="Сделал раздел &quot;Результаты поиска&quot;. Добавил блоки results, articles, button. Исправил итоговое расположение картинок при сборке веб-паком." />
+    <MESSAGE value="Изменил ширину header на большом разрешении." />
+    <MESSAGE value="Сверстал блок &quot;Об авторе&quot;" />
+    <MESSAGE value="Сверстал footer" />
+    <MESSAGE value="Сменил position у header c fixed на absolute" />
+    <MESSAGE value="Добавил страницу articles. Сверстал блок info." />
+    <MESSAGE value="Добавил темный модификатор элементам header" />
+    <MESSAGE value="Сверстал секцию сохраненных статей. Изменил на крточках статей кнопку. Добавил модификаторы для кнопки добавления статьи и удаления статьи." />
+    <MESSAGE value="Сверстал popup. Добавил конпке стиль disabled, иземенил цвет шрифта в голубой теме." />
+    <option name="LAST_COMMIT_MESSAGE" value="Сверстал popup. Добавил конпке стиль disabled, иземенил цвет шрифта в голубой теме." />
+  </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1602134845524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602134845524" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1602136209741">
+    <state x="692" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602327562565">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602136209741" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1602136209741">
+    <state x="692" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602327562565" />
+    <state x="758" y="268" key="FileChooserDialogImpl" timestamp="1602324000547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602136209741" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1602136209741">
+    <state x="758" y="268" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602324000547" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1602516636743">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602136209741" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1602136209741">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602516636743" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1602516636742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602136209741" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602516636742" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1602516636742">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602516636742" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1602516636742">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602516636742" />
+    <state x="479" y="172" key="SettingsEditor" timestamp="1602361707411">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="479" y="172" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602361707411" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1602432078838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602432078838" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="news-by-keyword-frontend" type="b2602c69:ProjectViewProjectNode" />
+        <item name="news-by-keyword-frontend" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>

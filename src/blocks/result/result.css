@@ -2,7 +2,10 @@
 @import url(./__title/result__title.css);
 @import url(./__show-more/result__show-more.css);
 @import url(./__articles/result__articles.css);
-
+@import url(./__not-found/result__not-found.css);
+@import url(./__img/result__img.css);
+@import url(./__text/result__text.css);
+@import url(./__not-found/_show/result__not-found_show.css);
 .result {
   padding: 80px 0;
   background-color: #F5F6F7;
@@ -27,3 +30,4 @@
     padding: 32px 16px;
   }
 }
+

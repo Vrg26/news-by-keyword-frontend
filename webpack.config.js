@@ -6,12 +6,12 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
   entry: {
-    main: './src/scripts/index.js',
+    index: './src/scripts/index.js',
     articles: './src/scripts/articles.js',
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[chunkhash].js',
+    filename: './scripts/[name].[chunkhash].js',
   },
   module: {
     rules: [{
@@ -21,7 +21,10 @@ module.exports = {
     },
     {
       test: /\.css$/,
-      use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader'],
+      use: [{ loader: MiniCssExtractPlugin.loader, options: { publicPath: '../' } },
+        'css-loader',
+        'postcss-loader',
+      ],
     },
     {
       test: /\.(png|jpg|gif|ico|svg)$/,
@@ -41,7 +44,7 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: 'style.[contenthash].css',
+      filename: './styles/[name].[contenthash].css',
     }),
     new OptimizeCssAssetsPlugin({
       assetNameRegExp: /\.css$/g,
@@ -55,7 +58,7 @@ module.exports = {
       inject: false,
       template: './src/index.html',
       filename: 'index.html',
-      chunks: ['main'],
+      chunks: ['index'],
     }),
     new HtmlWebpackPlugin({
       inject: false,

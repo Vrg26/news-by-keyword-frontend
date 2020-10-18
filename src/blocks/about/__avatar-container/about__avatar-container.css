@@ -1,0 +1,13 @@
+.about__avatar-container {
+}
+
+@media screen and (max-width: 768px) {
+  .about__avatar-container {
+    margin-top: 21px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about__avatar-container {
+    margin-top: 0;
+  }
+}

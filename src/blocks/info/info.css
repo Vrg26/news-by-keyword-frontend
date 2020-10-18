@@ -1,0 +1,26 @@
+@import url(./__subtitle/info__subtitle.css);
+@import url(./__text/info__text.css);
+@import url(./__title/info__title.css);
+@import url(./__keyword/info__keyword.css);
+.info {
+  box-sizing: border-box;
+  padding: 120px 0 56px;
+  max-width: 1237px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1280px) {
+  .info {
+    padding: 120px 40px 56px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .info {
+    padding: 90px 40px 32px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .info {
+    padding: 64px 16px 32px;
+  }
+}

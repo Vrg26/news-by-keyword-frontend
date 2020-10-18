@@ -1,0 +1,16 @@
+.cover__search {
+  position: relative;
+  z-index: 1;
+  max-width: 608px;
+  width: 100%;
+  height: 64px;
+  margin-top: 64px;
+  display: flex;
+}
+@media screen and (max-width: 500px) {
+  .cover__search{
+    margin-top: 122px;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+}

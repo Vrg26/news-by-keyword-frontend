@@ -1,0 +1,17 @@
+.cover__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 64px;
+  max-width: 608px;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title{
+    font-size: 36px;
+    line-height: 40px;
+    max-width: 385px;
+  }
+}

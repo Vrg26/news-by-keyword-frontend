@@ -1,0 +1,14 @@
+.button_disabled {
+  cursor: default;
+  box-shadow: none;
+  background-color: #E6E8EB;
+  color: #B6BCBF;
+}
+
+.button_disabled:hover {
+  background-color: #E6E8EB;
+}
+.button_disabled:active {
+  background-color: #E6E8EB;
+  outline: none;
+}

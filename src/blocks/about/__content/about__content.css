@@ -1,0 +1,14 @@
+.about__content {
+  display: flex;
+  max-width: 1237px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .about__content {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

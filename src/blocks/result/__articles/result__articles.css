@@ -1,0 +1,14 @@
+.result__articles {
+  margin: 64px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .result__articles {
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .result__articles {
+    margin-top: 24px;
+  }
+}

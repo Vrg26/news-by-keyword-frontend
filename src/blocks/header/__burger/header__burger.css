@@ -1,0 +1,27 @@
+.header__burger {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    z-index: 30;
+  }
+  .header__burger:before,
+  .header__burger:after {
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    width: 100%;
+    height: 2px;
+    transition: all 0.3s ease 0s;
+  }
+  .header__burger:before{
+    top: 4px;
+  }
+  .header__burger:after{
+    bottom: 4px;
+  }
+}

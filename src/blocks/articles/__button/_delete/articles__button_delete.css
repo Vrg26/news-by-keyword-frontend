@@ -1,0 +1,6 @@
+.articles__button_delete {
+  background: #fff url("../../../../images/trashGray.svg") center no-repeat;
+}
+.articles__button_delete:hover {
+  background-image: url("../../../../images/trash.svg");
+}

@@ -1,0 +1,6 @@
+.articles__button_add {
+  background: #fff url("../../../../images/addIconGrey.svg") center no-repeat;
+}
+.articles__button_add:hover {
+  background-image: url("../../../../images/addIconBlack.svg");
+}

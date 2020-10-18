@@ -1,0 +1,30 @@
+@import url(./_add/articles__button_add.css);
+@import url(./_delete/articles__button_delete.css);
+
+.articles__button {
+  position: absolute;
+  cursor: pointer;
+  top: 24px;
+  right: 24px;
+  z-index: 2;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 0;
+  transition: all 0.2s ease 0s;
+  border: none;
+}
+
+@media screen and (max-width: 940px) {
+  .articles__button {
+    top: 8px;
+    right: 8px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .articles__button {
+    top: 16px;
+    right: 16px;
+  }
+}
+

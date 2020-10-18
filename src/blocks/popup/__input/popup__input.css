@@ -1,0 +1,16 @@
+.popup__input {
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  border-bottom:1px solid rgba(0,0,0,0.2);
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.popup__input:focus {
+  outline: none;
+  border-bottom-color: #000;
+}

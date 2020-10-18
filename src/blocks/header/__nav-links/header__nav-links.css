@@ -1,0 +1,11 @@
+.header__nav-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .header__nav-links{
+    display: block;
+  }
+}

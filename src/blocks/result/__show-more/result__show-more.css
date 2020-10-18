@@ -1,0 +1,18 @@
+.result__show-more {
+  display: block;
+  width: 240px;
+  margin: 83px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .result__show-more {
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 425px){
+  .result__show-more {
+    width: 100%;
+    max-width: 288px;
+    margin-top: 15px;
+  }
+}

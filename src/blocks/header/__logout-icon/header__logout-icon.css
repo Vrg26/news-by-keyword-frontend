@@ -1,0 +1,4 @@
+@import url(./_show/header__logout-icon_show.css);
+.header__logout-icon {
+    display: none;
+}

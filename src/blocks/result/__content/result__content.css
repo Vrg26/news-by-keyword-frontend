@@ -1,4 +1,6 @@
+@import url(./_show/result__content_show.css);
 .result__content {
+  display: none;
   max-width: 1237px;
   width: 100%;
   margin: 0 auto;

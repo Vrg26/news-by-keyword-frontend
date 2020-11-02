@@ -21,8 +21,8 @@ export class FormValidation {
       return false;
     }
     if(input.type === 'password'){
-      if(input.value.length < 4 || input.value.length > 30){
-        input.setCustomValidity("Длина пароля должна быть от 4 до 30");
+      if(input.value.length < 8 || input.value.length > 30){
+        input.setCustomValidity("Длина пароля должна быть от 8 до 30");
         return false;
       }
     }

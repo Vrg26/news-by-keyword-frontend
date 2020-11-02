@@ -6,7 +6,6 @@ export default class Article extends BaseComponent {
       this.keyWord = keyWord;
       this.isSavedArticles = isSavedArticles;
       this.api = api;
-      console.log(api);
       this.dateConverter = dateConverter;
       this.id = objArticle._id;
       this.title = objArticle.title;

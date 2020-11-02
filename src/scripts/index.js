@@ -48,7 +48,7 @@ function handleSearchSubmit (event) {
       articlesList.setArticles(data.articles,word);
     })
     .catch((err) => {
-      console.log(err);
+      articlesList.showResultError(err);
     })
 }
 

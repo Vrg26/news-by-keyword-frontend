@@ -8,6 +8,7 @@
 @import url(./__not-found/_show/result__not-found_show.css);
 @import url(./__load/result__load.css);
 @import url(./__circle-preloader/result__circle-preloader.css);
+@import url(./__error/result__error.css);
 .result {
   padding: 80px 0;
   background-color: #F5F6F7;

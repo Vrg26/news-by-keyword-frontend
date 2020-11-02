@@ -14,6 +14,8 @@ export default class ArticlesList extends BaseComponent {
     this.buttonShowMore = this.domElement.querySelector('.result__show-more');
     this.containerArticles = this.domElement.querySelector('.articles');
     this.resultContent = this.domElement.querySelector('.result__content');
+    this.resultError = this.domElement.querySelector('.result__error');
+    this.errorTitle = this.resultError.querySelector('.result__title');
     this.resultNotFound = this.domElement.querySelector('.result__not-found');
     this.resultLoad = this.domElement.querySelector('.result__load');
     this.renderResults = this.renderResults.bind(this);
@@ -56,24 +58,45 @@ export default class ArticlesList extends BaseComponent {
   }
   showResultContent(){
     this.domElement.style.display = 'block';
+    if(this.resultLoad.classList.contains('result__load_show')){
+      this.resultLoad.classList.remove('result__load_show');
+    }
+    if(this.resultError.classList.contains('result__error_show')){
+      this.resultError.classList.remove('result__error_show');
+    }
     if(!this.resultContent.classList.contains('result__content_show')){
       this.resultContent.classList.add('result__content_show');
     }
     if(this.resultNotFound.classList.contains('result__not-found_show')){
       this.resultNotFound.classList.remove('result__not-found_show');
     }
-    if(this.resultLoad.classList.contains('result__load_show')){
-      this.resultLoad.classList.remove('result__load_show');
-    }
   }
-  showResultError(){
+  showResultError(err){
     this.domElement.style.display = 'block';
-    this.resultNotFound.classList.add('result__not-found_show');
+
+    this.resultError.classList.remove('result__error_show');
+    this.resultNotFound.classList.remove('result__not-found_show');
+
     if(this.resultContent.classList.contains('result__content_show')){
       this.resultContent.classList.remove('result__content_show');
     }
+
     if(this.resultLoad.classList.contains('result__load_show')){
       this.resultLoad.classList.remove('result__load_show');
+    }
+
+    switch (err) {
+      case 404:
+        this.resultNotFound.classList.add('result__not-found_show');
+        break;
+      case 429:
+        this.errorTitle = 'Вы привысили допустимое число запросов, попробуйте позже';
+        this.resultError.classList.add('result__error_show');
+        break;
+      default:
+        this.errorTitle = 'Ошибки случаются и вот сейчас тот самый случай';
+        this.resultError.classList.add('result__error_show');
+        break;
     }
   }
   showResultLoad(){
@@ -92,7 +115,7 @@ export default class ArticlesList extends BaseComponent {
     this.keyWord = keyWord;
     this.startIndexToDraw = 0;
     if(this.articles.length === 0){
-      this.showResultError();
+      this.showResultError(404);
       return;
     }
     this.renderResults();

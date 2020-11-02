@@ -1,0 +1,4 @@
+@import url(./_show/result__error_show.css);
+.result__error {
+  display: none;
+}

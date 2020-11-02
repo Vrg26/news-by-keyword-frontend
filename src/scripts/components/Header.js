@@ -6,6 +6,16 @@ export default class Header extends BaseComponent{
     this.authText = this.domElement.querySelector('.header__auth-text');
     this.logoutIcon = this.domElement.querySelector('.header__logout-icon');
     this.authButton = this.domElement.querySelector('.header__auth');
+    this.burger = this.domElement.querySelector('.header__burger');
+    this.nav = this.domElement.querySelector('.header__nav');
+    this.openMenu = this.openMenu.bind(this);
+    this.burger.addEventListener('click', this.openMenu);
+
+  }
+  openMenu(){
+    this.burger.classList.toggle('header__burger_active');
+    this.nav.classList.toggle('header__nav_active');
+    this.domElement.classList.toggle('header_active');
   }
   render(props){
     if(props.isLoggedIn){

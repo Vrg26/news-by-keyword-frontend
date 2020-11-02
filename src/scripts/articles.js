@@ -5,16 +5,11 @@ import ArticlesList from './components/ArticlesList';
 import Article from './components/Article';
 import dateConverter from './utils/dateConverter';
 import { InfoUser } from './components/InfoUser';
+import { mainApiSettings } from './constants/mainApiSettings';
 const header = new Header(document.querySelector('.header'));
 const articlesList = new ArticlesList(createArticle,document.querySelector('.result'));
 const userInfo = new InfoUser(document.querySelector('.info'));
-const mainApi = new MainApi({
-  baseUrl: 'http://localhost:3000/',
-  headers: {
-    "Content-Type": "application/json",
-    "Access-Control-Allow-Origin": "*",
-  },
-});
+const mainApi = new MainApi(mainApiSettings);
 
 function  createArticle(...args){
   return new Article(document.getElementById('article'), dateConverter, mainApi,true,...args);
@@ -64,12 +59,11 @@ function checkAuth() {
         );
       }
     })
-    .catch((err) => {
-      console.log(err);
-      window.location.pathname = window.location.pathname.replace(
-        "articles.html",
-        "index.html"
-      );
+    .catch(() => {
+       window.location.pathname = window.location.pathname.replace(
+         "articles.html",
+         "index.html"
+        );
     });
 }
 checkAuth();

@@ -8,6 +8,8 @@ import { NewsApi } from './api/NewsApi';
 import Article from './components/Article';
 import ArticlesList from './components/ArticlesList';
 import dateConverter from './utils/dateConverter';
+import { mainApiSettings } from './constants/mainApiSettings';
+import { newsApiSettings } from './constants/newsApiSettings';
 
 const popup = new Popup(document.querySelector('.popup'));
 const formSignin = new Form(createValidation,document.getElementById('form-sign-in'));
@@ -16,14 +18,8 @@ const formSearch = document.querySelector('.cover__search');
 const successSignUp = document.getElementById('success').content.cloneNode(true);
 const header = new Header(document.querySelector('.header'));
 const articlesList = new ArticlesList(createArticle,document.querySelector('.result'));
-const mainApi = new MainApi({
-  baseUrl: 'https://api.news.students.nomoreparties.co/',
-  headers: {
-    "Content-Type": "application/json",
-    "Access-Control-Allow-Origin": "*",
-  },
-});
-const newsApi = new NewsApi({});
+const mainApi = new MainApi(mainApiSettings);
+const newsApi = new NewsApi(newsApiSettings);
 
 function createValidation(...arg){
   return new FormValidation(...arg);

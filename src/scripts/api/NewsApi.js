@@ -1,8 +1,7 @@
 export class NewsApi {
   constructor(settings) {
-    this.settings = settings;
-    this.apiKey = 'a08a8902585d44f0bacdac1ecec45df1';
-    this.url = 'https://nomoreparties.co/news/v2/everything?';
+    this.apiKey = settings.apiKey;
+    this.url = settings.url;
   }
   getNews(props) {
     return fetch(`${this.url}q=${props.keyWord}

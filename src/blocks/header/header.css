@@ -15,6 +15,8 @@
 @import url(./_theme/header_theme_black.css);
 @import url(./_active/header_active.css);
 @import url(./__content/header__content.css);
+@import url(./__auth-text/header__auth-text.css);
+@import url(./__logout-icon/header__logout-icon.css);
 .header {
   font-family: 'Roboto', sans-serif;
   position: absolute;

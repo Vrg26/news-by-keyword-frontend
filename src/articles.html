@@ -20,7 +20,11 @@
           <li class="header__nav-item header__nav-item_black"><a href="./index.html" class="header__nav-link">Главная</a></li>
           <li class="header__nav-item header__nav-item_black header__nav-item_active"><a href="./articles.html" class="header__nav-link">Сохранённые статьи</a></li>
         </ul>
-        <button class="header__auth header__auth_black">Авторизоваться</button>
+        <button id="test" class="header__auth header__auth_black"><span class="header__auth-text">...</span>
+          <svg class="header__logout-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 6H6v12h4v2H6a2 2 0 01-2-2V6a2 2 0 012-2h4v2zm7.586 7l-4.293 4.134 1.414 1.362 6.707-6.459-6.707-6.459-1.414 1.362 4.293 4.134H8V13h9.586z" fill="#1a1b22"/>
+          </svg>
+        </button>
       </nav>
     </div>
   </header>
@@ -28,20 +32,19 @@
     <section class="info">
       <h1 class="info__title">Сохраненные статьи</h1>
       <h2 class="info__subtitle">Грета, у вас 5 сохранённых статей</h2>
-      <p class="info__text">По ключевым словам:
-        <span class="info__keyword">Природа</span> ,
-        <span class="info__keyword">Тайга</span> и <span class="info__keyword">2-м другим</span></p>
+      <p class="info__text">По ключевым словам: </p>
     </section>
-    <section class="saved-articles">
-      <div class="saved-articles__content">
+    <section class="result saved-articles">
+      <div class="result__content">
         <div class="articles">
-          <div class="articles__card">
-            <div class="articles__picture">
+          <template id="article">
+            <div class="articles__view">
+              <img src="<%=require('./images/cardImage.jpg') %>" alt="Обложка статьи" class="articles__picture">
               <p class="articles__keyword">Природа</p>
               <button class="articles__button articles__button_delete"></button>
               <p class="articles__hint">Убрать из сохранённых</p>
             </div>
-            <div class="articles__content">
+            <a href="#" class="articles__content" target="_blank">
               <p class="articles__date">2 августа, 2019</p>
               <h3 class="articles__title">
                 Национальное достояние – парки
@@ -50,43 +53,69 @@
                 В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...
               </p>
               <p class="articles__source">Риа</p>
-            </div>
-          </div>
-          <div class="articles__card">
-            <div class="articles__picture">
-              <p class="articles__keyword">Природа</p>
-              <button class="articles__button articles__button_delete"></button>
-              <p class="articles__hint">Убрать из сохранённых</p>
-            </div>
-            <div class="articles__content">
-              <p class="articles__date">2 августа, 2019</p>
-              <h3 class="articles__title">
-                Национальное достояние – парки
-              </h3>
-              <p class="articles__text">
-                В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...
-              </p>
-              <p class="articles__source">Риа</p>
-            </div>
-          </div>
-          <div class="articles__card">
-            <div class="articles__picture">
-              <p class="articles__keyword">Природа</p>
-              <button class="articles__button articles__button_delete"></button>
-              <p class="articles__hint articles__hint_active">Убрать из сохранённых</p>
-            </div>
-            <div class="articles__content">
-              <p class="articles__date">2 августа, 2019</p>
-              <h3 class="articles__title">
-                Национальное достояние – парки
-              </h3>
-              <p class="articles__text">
-                В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...
-              </p>
-              <p class="articles__source">Риа</p>
-            </div>
-          </div>
+            </a>
+          </template>
+<!--          <div class="articles__card">-->
+<!--            <div class="articles__picture">-->
+<!--              <p class="articles__keyword">Природа</p>-->
+<!--              <button class="articles__button articles__button_delete"></button>-->
+<!--              <p class="articles__hint">Убрать из сохранённых</p>-->
+<!--            </div>-->
+<!--            <div class="articles__content">-->
+<!--              <p class="articles__date">2 августа, 2019</p>-->
+<!--              <h3 class="articles__title">-->
+<!--                Национальное достояние – парки-->
+<!--              </h3>-->
+<!--              <p class="articles__text">-->
+<!--                В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...-->
+<!--              </p>-->
+<!--              <p class="articles__source">Риа</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="articles__card">-->
+<!--            <div class="articles__picture">-->
+<!--              <p class="articles__keyword">Природа</p>-->
+<!--              <button class="articles__button articles__button_delete"></button>-->
+<!--              <p class="articles__hint">Убрать из сохранённых</p>-->
+<!--            </div>-->
+<!--            <div class="articles__content">-->
+<!--              <p class="articles__date">2 августа, 2019</p>-->
+<!--              <h3 class="articles__title">-->
+<!--                Национальное достояние – парки-->
+<!--              </h3>-->
+<!--              <p class="articles__text">-->
+<!--                В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...-->
+<!--              </p>-->
+<!--              <p class="articles__source">Риа</p>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="articles__card">-->
+<!--            <div class="articles__picture">-->
+<!--              <p class="articles__keyword">Природа</p>-->
+<!--              <button class="articles__button articles__button_delete"></button>-->
+<!--              <p class="articles__hint articles__hint_active">Убрать из сохранённых</p>-->
+<!--            </div>-->
+<!--            <div class="articles__content">-->
+<!--              <p class="articles__date">2 августа, 2019</p>-->
+<!--              <h3 class="articles__title">-->
+<!--                Национальное достояние – парки-->
+<!--              </h3>-->
+<!--              <p class="articles__text">-->
+<!--                В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков...-->
+<!--              </p>-->
+<!--              <p class="articles__source">Риа</p>-->
+<!--            </div>-->
+<!--          </div>-->
         </div>
+      </div>
+      <div class="result__load">
+        <i class="result__circle-preloader"></i>
+        <p class="result__text">Идет поиск новостей...</p>
+      </div>
+      <div class="result__not-found">
+        <img class="result__img" src="<%=require('./images/not-found.svg') %>" alt="изображение грустной лупы">
+        <h1 class="result__title result__title_not-found">Ничего не найдено</h1>
+        <p class="result__text">К сожалению у вас нет сохраненных карточек.</p>
       </div>
     </section>
   </main>

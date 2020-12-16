@@ -1,4 +1,7 @@
 .header__auth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   cursor: pointer;
   border: 1px solid #FFF;
   border-radius: 100px;

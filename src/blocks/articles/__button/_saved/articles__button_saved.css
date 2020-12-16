@@ -1,0 +1,6 @@
+.articles__button_saved {
+  background: #fff url("../../../../images/addIconBlue.svg") center no-repeat;
+}
+.articles__button_saved:hover {
+  background: #fff url("../../../../images/addIconBlue.svg") center no-repeat;
+}

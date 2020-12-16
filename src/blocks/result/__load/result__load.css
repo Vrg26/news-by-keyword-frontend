@@ -1,0 +1,10 @@
+@import url(_show/result__load_show.css);
+.result__load {
+  display: none;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
